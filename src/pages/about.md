@@ -7,12 +7,12 @@ hero:
 flockStory:
   bigText: >-
     We're Flock, an energetic, London-based startup building the future of drone
-    insurance…
+    insurance… . 
 
 
     We believe that insurance doesn't have to be boring. It can be smart, and
     powered by real-time data. It can fit in the palm of your hand. And it can
-    even help to reduce your own risks.
+    even help to reduce your own risks.   
 
 
     Since launching Flock Cover in January 2018 we’ve helped thousands of
@@ -20,7 +20,7 @@ flockStory:
     their flights. We’ve also launched offerings for recreational pilots and
     trainee pilots. And by constantly listening and learning from our customers,
     we’ve released a bunch of cool features too - like predictive analytics, and
-    additional equipment insurance.
+    additional equipment insurance.   
 
 
     Our technology and service is now transforming both the drone industry and
