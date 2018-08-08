@@ -42,8 +42,9 @@ stopWorrying:
   reasons:
     - icon: images/uploads/shield.svg
       text: >-
-        Flock’s pricing is risk-dependent. So the safer you fly, the less you
-        pay. It's as simple as that.
+        Flock’s pricing is
+        [risk-dependent](https://help.flockcover.com/about-the-flock-cover-app/how-does-flock-determine-my-policy-price).
+        So the safer you fly, the less you pay. It's as simple as that.
       title: Fairer pricing
     - icon: images/uploads/money.svg
       text: >-
