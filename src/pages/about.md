@@ -23,6 +23,11 @@ flockStory:
     insurance](https://blog.flockcover.com/just-landed-accessory-insurance-627b04c985bd).
 
 
+    * Item 1
+
+    * Item 2
+
+
     Our technology and service is now transforming both the drone industry and
     the insurance industry - and we’re just getting started!
   header: 'Our Story '
