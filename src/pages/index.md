@@ -16,6 +16,13 @@ hero:
 
 
     Some extra content
+
+
+    * List Item 1
+
+    * List Item 2
+
+    * List Item 3
   features:
     - rightIcon: /images/uploads/allianz.png
       title: Underwritten by
