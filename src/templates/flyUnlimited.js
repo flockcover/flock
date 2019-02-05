@@ -86,13 +86,13 @@ class FlyUnlimitedPageTemplate extends Component {
 
             <WhatIsCoveredSection
               mainTitle={whatIsCovered.mainTitle}
+              mainDescription={whatIsCovered.mainDescription}
               mainList={whatIsCovered.mainList}
-              priceSmallPrint={whatIsCovered.priceSmallPrint}
+              smallprints={whatIsCovered.smallprints}
               buttonText={whatIsCovered.buttonText}
+              buttonUrl={whatIsCovered.buttonUrl}
               fromPrice={whatIsCovered.fromPrice}
-              policyFeatureList={whatIsCovered.policyFeatureList}
-              samplePolicyWordingUrl={whatIsCovered.samplePolicyWordingUrl}
-              pilotSmallPrint={whatIsCovered.pilotSmallPrint}
+              features={whatIsCovered.features}
             />
           </Box>
 
@@ -105,9 +105,7 @@ class FlyUnlimitedPageTemplate extends Component {
           <Box className={css({backgroundColor: 'white'})}>
             <FUfaqSection
               header={faqSection.header}
-              body={
-                faqSection.body
-              }
+              body={faqSection.body}
               buttonText={faqSection.buttonText}
               buttonUrl={faqSection.buttonUrl}
               faqList={faqSection.faqList}
@@ -189,18 +187,20 @@ export const query = graphql`
         }
         whatIsCovered {
           mainTitle
+          mainDescription
           mainList {
             icon
             title
           }
-          priceSmallPrint
-          pilotSmallPrint
-          buttonText
-          fromPrice
-          policyFeatureList {
+          smallprints {
             text
           }
-          samplePolicyWordingUrl
+          buttonText
+          buttonUrl
+          fromPrice
+          features {
+            text
+          }
         }
         faqSection {
           header

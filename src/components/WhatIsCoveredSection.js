@@ -20,13 +20,13 @@ const mapIndex = R.addIndex(R.map)
 const whatIsCovered = ({
   id,
   mainTitle,
+  mainDescription,
   mainList,
-  priceSmallPrint,
-  pilotSmallPrint,
+  smallprints,
   buttonText,
+  buttonUrl,
   fromPrice,
-  policyFeatureList,
-  samplePolicyWordingUrl
+  features
 }) => {
   return (
     <Flex id={id} justifyContent="center" pb={2}>
@@ -61,27 +61,29 @@ const whatIsCovered = ({
               </H2>
             </Flex>
 
-            <Flex
-              flex={2}
-              p={2}
-              style={{backgroundColor: '#FFE001', flexDirection: 'column'}}
-              justifyContent="center"
-            >
-              <SmallText>from</SmallText>
+            {fromPrice && (
+              <Flex
+                flex={2}
+                p={2}
+                style={{backgroundColor: '#FFE001', flexDirection: 'column'}}
+                justifyContent="center"
+              >
+                <SmallText>from</SmallText>
 
-              <Flex alignItems="flex-end">
-                <H1 mb={0} markdown={true}>
-                  {fromPrice}
-                </H1>
-                <SmallText
-                  className={css({
-                    marginLeft: 10
-                  })}
-                >
-                  a month**
-                </SmallText>
+                <Flex alignItems="flex-end">
+                  <H1 mb={0} markdown={true}>
+                    {fromPrice}
+                  </H1>
+                  <SmallText
+                    className={css({
+                      marginLeft: 10
+                    })}
+                  >
+                    a month**
+                  </SmallText>
+                </Flex>
               </Flex>
-            </Flex>
+            )}
 
             <Flex
               flex={4}
@@ -93,38 +95,43 @@ const whatIsCovered = ({
                 justifyContent: 'space-between'
               }}
             >
-              <Flex flexDirection="column" pt={30} pb={30}>
-                {mapIndex(
-                  ({text}) => (
-                    <SmallText
+              {features && features.length > 0 && (
+                <Flex flexDirection="column" pt={30} pb={30}>
+                  {mapIndex(
+                    ({text}) => (
+                      <SmallText
+                        className={css({
+                          fontSize: 15,
+                          marginBottom: 10
+                        })}
+                      >
+                        {text}
+                      </SmallText>
+                    ),
+                    features
+                  )}
+                </Flex>
+              )}
+              
+              {buttonText && buttonUrl && (
+                <PrimaryButton
+                  className={css({
+                    alignSelf: 'flex-start',
+                    marginBottom: 30
+                  })}
+                  onClick={() => window.open('https://my.flockcover.com')}
+                >
+                  <ArrowText moveOnHover={false}>
+                    <p
                       className={css({
-                        fontSize: 15,
-                        marginBottom: 10
+                        fontSize: 17
                       })}
                     >
-                      {text}
-                    </SmallText>
-                  ),
-                  policyFeatureList
-                )}
-              </Flex>
-              <PrimaryButton
-                className={css({
-                  alignSelf: 'flex-start',
-                  marginBottom: 30
-                })}
-                onClick={() => window.open('https://my.flockcover.com')}
-              >
-                <ArrowText moveOnHover={false}>
-                  <p
-                    className={css({
-                      fontSize: 17
-                    })}
-                  >
-                    {buttonText}
-                  </p>
-                </ArrowText>
-              </PrimaryButton>
+                      {buttonText}
+                    </p>
+                  </ArrowText>
+                </PrimaryButton>
+              )}
             </Flex>
           </Flex>
 
@@ -169,44 +176,35 @@ const whatIsCovered = ({
                 mainList
               )}
             </Flex>
-            <Link
-              to={samplePolicyWordingUrl}
-              className={css({
-                textDecoration: 'none',
-                color: 'inherit'
-              })}
-            >
-              <Flex mt={20} mb={20} ml={[0, 0, 20]}>
-                <SmallText>
-                  View the <b>Key Facts</b> for details of what's covered.
-                </SmallText>
-              </Flex>
-            </Link>
+
+            <Flex mt={20} mb={20} ml={[0, 0, 20]}>
+              <SmallText>
+                {mainDescription}
+              </SmallText>
+            </Flex>
           </Flex>
         </Flex>
 
-        <Text
-          textAlign="left"
-          className={css({
-            marginLeft: 20,
-            fontSize: 12,
-            color: 'grey',
-            marginBottom: 0
-          })}
-        >
-          ** {priceSmallPrint}
-        </Text>
-        <Text
-          textAlign="left"
-          className={css({
-            marginBottom: 20,
-            marginLeft: 20,
-            fontSize: 12,
-            color: 'grey'
-          })}
-        >
-          &#8314; {pilotSmallPrint}
-        </Text>
+        {smallprints && smallprints.length > 0 && (
+          <Flex flexDirection="column" pt={30} pb={30}>
+            {mapIndex(
+              ({text}) => (
+                <SmallText
+                  textAlign="left"
+                  className={css({
+                    marginBottom: 20,
+                    marginLeft: 20,
+                    fontSize: 12,
+                    color: 'grey'
+                  })}
+                >
+                  {text}
+                </SmallText>
+              ),
+              smallprints
+            )}
+          </Flex>
+        )}
       </SiteContainer>
     </Flex>
   )

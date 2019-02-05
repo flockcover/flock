@@ -90,12 +90,15 @@ whatIsCovered:
     - icon: /images/uploads/megaphone.svg
       title: Noise complaints
   mainTitle: What's covered?
-  priceSmallPrint: Prices depend on factors such as experience, equipment and claims history.
-  pilotSmallPrint: Available if multiple pilots are operating under a single PfCO.
+  mainDescription: >-
+    View the [Key Facts](https://s3.eu-west-2.amazonaws.com/flock-cover-static/IPID-fly-unlimited.pdf) for details of what's covered.
+  smallprints:
+    - text: \** Prices depend on factors such as experience, equipment and claims history.
+    - text: \+ Available if multiple pilots are operating under a single PfCO.
   buttonText: GET A QUOTE
+  buttonUrl: 'https://my.flockcover.com'
   fromPrice: £24.95
-  samplePolicyWordingUrl: https://s3.eu-west-2.amazonaws.com/flock-cover-static/IPID-fly-unlimited.pdf
-  policyFeatureList:
+  features:
     - text: Unlimited commercial flights in the UK
     - text: In-and-out of flight equipment cover (up to £25K in-flight limit)
     - text: Public Liability insurance up to £10M
