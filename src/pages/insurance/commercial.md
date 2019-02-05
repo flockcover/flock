@@ -3,25 +3,16 @@ title: Commercial
 templateKey: product
 hero:
   backgroundImage: ../../images/uploads/commercial-header.jpg
-  buttons:
-    - title: Download
-      to: 'https://flockcover.app.link/6IW6kTmgfP'
-      color: yellow
-      external: true
-      branch: true
-      track: 'Application Download Viewed'
-  features:
-    - title: Underwritten by
-      rightIcon: /images/uploads/allianz.png
-    - leftIcon: /images/uploads/black-tick-icon.png
-      title: FCA & CAA compliant
-    - leftIcon: /images/uploads/support-icon.png
-      title: Instant customer support
+  button:
+    text: Download
+    to: 'https://flockcover.app.link/6IW6kTmgfP'
   description: |-
     * Pay-as-you-fly and monthly subscription options
     * EC785/2004 compliant 
     * Customisable Public Liability limits from £1-10M
     * Drone and accessory cover up to £25,000
+
+    \* Some small print here...
   header: Fully flexible drone insurance for commercial pilots
 why:
   description: Thousands of drone pilots across the UK now use the Flock Cover app.
