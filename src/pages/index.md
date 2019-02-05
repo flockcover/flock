@@ -4,22 +4,25 @@ templateKey: home
 downloadLink: 'https://flockcover.app.link/6IW6kTmgfP'
 hero:
   buttons:
-    - title: Get a quote
-      to: 'https://flockcover.app.link/6IW6kTmgfP'
+    - branch: true
       color: yellow
       external: true
-      branch: true
+      title: Get a quote
+      to: 'https://flockcover.app.link/6IW6kTmgfP'
       track: ''
+  description: >-
+    Welcome to fully flexible insurance you control. In a couple of taps, get
+    covered for an hour, day or month - whatever suits you.
+
+
+    Some extra content
   features:
-    - title: Underwritten by
-      rightIcon: /images/uploads/allianz.png
+    - rightIcon: /images/uploads/allianz.png
+      title: Underwritten by
     - leftIcon: /images/uploads/black-tick-icon.png
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: Instant customer support
-  description: >-
-    Welcome to fully flexible insurance you control. In a couple of taps, get
-    covered for an hour, day or month - whatever suits you.
   header: 'Simpler, smarter drone insurance'
 video:
   coverImage: /images/uploads/testimonial/1.jpg
