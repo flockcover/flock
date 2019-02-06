@@ -36,7 +36,7 @@ why:
       text: >-
         Travelling abroad? Extend your cover for the month, and scale it down again when you return.  
       title: Extend your cover worldwide
-    - icon: /images/uploads/shield.svg
+    - icon: /images/uploads/shield-icon.svg
       text: >-
         Have peace of mind that your equipment is also protected with storage, transit, and theft insurance.
       title: Out-of-flight protection
@@ -71,6 +71,8 @@ renewalBanner:
   image: /images/uploads/renewal-drone.jpg
   mainText: Switching to Flock is easy - even before your policy has expired. Join Flock today!
   buttonText: GET A QUOTE IN 60 SECONDS
+  buttonUrl: 'https://my.flockcover.com'
+  buttonTrack: WebApp Navigation Clicked
 whatIsCovered:
   cardTitle: FLY UNLIMITED
   mainList:

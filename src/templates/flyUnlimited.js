@@ -101,6 +101,8 @@ class FlyUnlimitedPageTemplate extends Component {
             image={renewalBanner.image}
             mainText={renewalBanner.mainText}
             buttonText={renewalBanner.buttonText}
+            buttonUrl={renewalBanner.buttonUrl}
+            buttonTrack={renewalBanner.buttonTrack}
           />
 
           <Box className={css({backgroundColor: 'white'})}>
@@ -185,6 +187,8 @@ export const query = graphql`
           image
           mainText
           buttonText
+          buttonUrl
+          buttonTrack
         }
         whatIsCovered {
           cardTitle

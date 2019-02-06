@@ -8,12 +8,11 @@ import ArrowText from './ArrowText'
 import PrimaryButton from './PrimaryButton'
 import {breakpoints, fontFamilies} from '../constants/theme'
 import Text from './Text'
-import { webAppClickhandler } from '../utils/trackDownload'
 
-const RenewalBanner = ({image, mainText, buttonText}) => {
+const RenewalBanner = ({image, mainText, buttonText, buttonUrl, buttonTrack}) => {
   const download = () => {
-    webAppClickhandler()
-    window.open('https://my.flockcover.com')
+    if (!!buttonTrack) analytics.track(buttonTrack)
+    window.open(buttonUrl)
   }
 
   return (
@@ -42,17 +41,19 @@ const RenewalBanner = ({image, mainText, buttonText}) => {
           >
             {mainText}
           </Text>
-          <PrimaryButton className={cx(
-            css`
-              ${styles.renewalButton};
-            `
-          )} onClick={download}>
-            <ArrowText moveOnHover={false}>
-              <p>
-                {buttonText}
-              </p>
-            </ArrowText>
-          </PrimaryButton>
+          {buttonText && buttonUrl && (
+            <PrimaryButton className={cx(
+              css`
+                ${styles.renewalButton};
+              `
+            )} onClick={download}>
+              <ArrowText moveOnHover={false}>
+                <p>
+                  {buttonText}
+                </p>
+              </ArrowText>
+            </PrimaryButton>
+          )}
         </Flex>
       </SiteContainer>
     </Flex>
@@ -74,6 +75,7 @@ const styles = {
   renewalButton: `
     font-size: 17;
     align-self: 'flex-start';
+    cursor: pointer;
     @media (max-width: ${R.nth(0, breakpoints)}) {
       text-align: left;
       font-size: 15px;

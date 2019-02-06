@@ -269,6 +269,78 @@ collections:
                   - name: rightIcon
                     label: Right Icon
                     widget: image
+          - name: how
+            label: How
+            widget: object
+            fields:
+              - name: title
+                label: Title
+                widget: string
+              - name: description
+                label: Description
+                widget: markdown
+              - name: image
+                label: Image
+                widget: image
+              - name: policyPauseSmallPrint
+                label: Policy Pause Small Print
+                widget: string
+              - name: list
+                label: List
+                widget: list
+                fields:
+                  - name: title
+                    label: Title
+                    widget: string
+                  - name: text
+                    label: Text
+                    widget: markdown
+          - name: why
+            label: Why
+            widget: object
+            fields:
+              - name: title
+                label: Title
+                widget: string
+              - name: description
+                label: Description
+                widget: string
+              - name: items
+                label: Items
+                widget: list
+                fields:
+                  - name: icon
+                    label: Icon
+                    widget: image
+                  - name: title
+                    label: Title
+                    widget: string
+                  - name: body
+                    label: Body
+                    widget: markdown
+          - name: control
+            label: Control
+            widget: object
+            fields:
+              - name: title
+                label: Title
+                widget: string
+              - name: description
+                label: Description
+                widget: string
+              - name: items
+                label: Items
+                widget: list
+                fields:
+                  - name: icon
+                    label: Icon
+                    widget: image
+                  - name: title
+                    label: Title
+                    widget: string
+                  - name: body
+                    label: Body
+                    widget: markdown
           - name: whatIsCovered
             label: What is covered
             widget: object

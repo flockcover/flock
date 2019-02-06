@@ -89,21 +89,24 @@ class NonToggleiPhone extends Component {
                 * {policyPauseSmallPrint}
               </Text>
             </Box>
-            <Box
-              order={[1, 3]}
-              zIndex="0"
-              width={['100%', '50%']}
-              height={[450, 450, 'auto']}
-            >
-              <Flex justifyContent="center" position="relative">
-                <div className={style.container}>
-                  <div className={style.screenContainer}>
-                    <img className={style.screen} src={withPrefix(image)} />
+
+            {image && (
+              <Box
+                order={[1, 3]}
+                zIndex="0"
+                width={['100%', '50%']}
+                height={[450, 450, 'auto']}
+              >
+                <Flex justifyContent="center" position="relative">
+                  <div className={style.container}>
+                    <div className={style.screenContainer}>
+                      <img className={style.screen} src={withPrefix(image)} />
+                    </div>
+                    <img src={iPhone} className={style.phone} />
                   </div>
-                  <img src={iPhone} className={style.phone} />
-                </div>
-              </Flex>
-            </Box>
+                </Flex>
+              </Box>
+            )}
           </Flex>
         </SiteContainer>
       </Flex>
