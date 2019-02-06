@@ -155,7 +155,6 @@ export const query = graphql`
       frontmatter {
         title
         hero {
-          hidden
           buttons {
             title
             to
