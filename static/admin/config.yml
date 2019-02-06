@@ -269,10 +269,41 @@ collections:
                   - name: rightIcon
                     label: Right Icon
                     widget: image
+          - name: why
+            label: Why
+            widget: object
+            fields:
+              - name: hidden
+                label: Hidden
+                widget: boolean
+                default: false
+              - name: title
+                label: Title
+                widget: string
+              - name: description
+                label: Description
+                widget: string
+              - name: items
+                label: Items
+                widget: list
+                fields:
+                  - name: icon
+                    label: Icon
+                    widget: image
+                  - name: title
+                    label: Title
+                    widget: string
+                  - name: body
+                    label: Body
+                    widget: markdown
           - name: how
             label: How
             widget: object
             fields:
+              - name: hidden
+                label: Hidden
+                widget: boolean
+                default: false
               - name: title
                 label: Title
                 widget: string
@@ -295,33 +326,14 @@ collections:
                   - name: text
                     label: Text
                     widget: markdown
-          - name: why
-            label: Why
-            widget: object
-            fields:
-              - name: title
-                label: Title
-                widget: string
-              - name: description
-                label: Description
-                widget: string
-              - name: items
-                label: Items
-                widget: list
-                fields:
-                  - name: icon
-                    label: Icon
-                    widget: image
-                  - name: title
-                    label: Title
-                    widget: string
-                  - name: body
-                    label: Body
-                    widget: markdown
           - name: control
             label: Control
             widget: object
             fields:
+              - name: hidden
+                label: Hidden
+                widget: boolean
+                default: false
               - name: title
                 label: Title
                 widget: string
@@ -345,6 +357,10 @@ collections:
             label: What is covered
             widget: object
             fields:
+              - name: hidden
+                label: Hidden
+                widget: boolean
+                default: false
               - name: cardTitle
                 label: Card Title
                 widget: string
@@ -387,6 +403,32 @@ collections:
                   - name: text
                     label: Text
                     widget: string
+          - name: renewalBanner
+            label: Renewal Banner
+            widget: object
+            fields:
+              - name: hidden
+                label: Hidden
+                widget: boolean
+                default: false
+              - name: image
+                label: Image
+                widget: image
+              - name: mainText
+                label: Main Text
+                widget: string
+              - name: buttonText
+                label: Button Text
+                widget: string
+              - name: buttonUrl
+                label: Button URL
+                widget: string
+              - name: buttonTrack
+                label: Button Track
+                widget: select
+                options:
+                  - { label: Download, value: 'Application Download Viewed' }
+                  - { label: Web App, value: 'WebApp Navigation Clicked' }
       - name: about
         label: About
         file: "src/pages/about.md"
