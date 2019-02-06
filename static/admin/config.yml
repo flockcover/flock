@@ -210,7 +210,7 @@ collections:
               - {label: "Keywords", name: "keywords", widget: "list"}
       - name: flyUnlimited
         label: Fly Unlimited
-        file: "src/pages/flyunlimited.md"
+        file: "src/pages/flyUnlimited.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Template Key, name: templateKey, widget: hidden, default: flyUnlimited }
