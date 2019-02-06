@@ -26,7 +26,8 @@ const whatIsCovered = ({
   buttonText,
   buttonUrl,
   fromPrice,
-  features
+  features,
+  cardTitle
 }) => {
   return (
     <Flex id={id} justifyContent="center" pb={2}>
@@ -49,17 +50,19 @@ const whatIsCovered = ({
               alignSelf: 'flex-start'
             })}
           >
-            <Flex
-              style={{
-                backgroundColor: '#F7F7F4',
-                padding: 15,
-                alignItems: 'center'
-              }}
-            >
-              <H2 markdown={true} mb={0}>
-                FLY UNLIMITED
-              </H2>
-            </Flex>
+            {cardTitle && (
+              <Flex
+                style={{
+                  backgroundColor: '#F7F7F4',
+                  padding: 15,
+                  alignItems: 'center'
+                }}
+              >
+                <H2 markdown={true} mb={0}>
+                  FLY UNLIMITED
+                </H2>
+              </Flex>
+            )}
 
             {fromPrice && (
               <Flex
@@ -96,7 +99,7 @@ const whatIsCovered = ({
               }}
             >
               {features && features.length > 0 && (
-                <Flex flexDirection="column" pt={30} pb={30}>
+                <Flex flexDirection="column" pt={30}>
                   {mapIndex(
                     ({text}) => (
                       <SmallText
@@ -115,9 +118,11 @@ const whatIsCovered = ({
               
               {buttonText && buttonUrl && (
                 <PrimaryButton
+                  mt={30}
                   className={css({
                     alignSelf: 'flex-start',
-                    marginBottom: 30
+                    marginBottom: 30,
+                    cursor: 'pointer'
                   })}
                   onClick={() => window.open('https://my.flockcover.com')}
                 >
@@ -155,12 +160,12 @@ const whatIsCovered = ({
               })}
             >
               {mapIndex(
-                ({title, text, icon}) => (
+                ({title, icon}) => (
                   <Flex
                     flex="1 1 auto"
                     flexDirection="column"
                     alignItems="flex-start"
-                    width={['100%', '50%', '50%', '25%']}
+                    width={['50%', '50%', '50%', '25%']}
                     p={20}
                   >
                     <ShowIf predicate={!!icon}>
@@ -170,7 +175,6 @@ const whatIsCovered = ({
                       />
                     </ShowIf>
                     <H3>{title}</H3>
-                    <SmallText>{text}</SmallText>
                   </Flex>
                 ),
                 mainList
@@ -186,15 +190,14 @@ const whatIsCovered = ({
         </Flex>
 
         {smallprints && smallprints.length > 0 && (
-          <Flex flexDirection="column" pt={30} pb={30}>
+          <Flex flexDirection="column" pt={10} pb={10}>
             {mapIndex(
               ({text}) => (
                 <SmallText
                   textAlign="left"
+                  style={{fontSize: 14}}
                   className={css({
-                    marginBottom: 20,
-                    marginLeft: 20,
-                    fontSize: 12,
+                    paddingLeft: 20,
                     color: 'grey'
                   })}
                 >

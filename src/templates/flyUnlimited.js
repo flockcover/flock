@@ -85,6 +85,7 @@ class FlyUnlimitedPageTemplate extends Component {
             <BigSectionLine id="what-is-covered" />
 
             <WhatIsCoveredSection
+              cardTitle={whatIsCovered.cardTitle}
               mainTitle={whatIsCovered.mainTitle}
               mainDescription={whatIsCovered.mainDescription}
               mainList={whatIsCovered.mainList}
@@ -186,6 +187,7 @@ export const query = graphql`
           buttonText
         }
         whatIsCovered {
+          cardTitle
           mainTitle
           mainDescription
           mainList {

@@ -273,6 +273,9 @@ collections:
             label: What is covered
             widget: object
             fields:
+              - name: cardTitle
+                label: Card Title
+                widget: string
               - name: mainList
                 label: Main List
                 widget: list

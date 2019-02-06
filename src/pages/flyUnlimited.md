@@ -72,9 +72,10 @@ renewalBanner:
   mainText: Switching to Flock is easy - even before your policy has expired. Join Flock today!
   buttonText: GET A QUOTE IN 60 SECONDS
 whatIsCovered:
+  cardTitle: FLY UNLIMITED
   mainList:
     - icon: /images/uploads/drone.svg
-      title: Drones & accessories      
+      title: Drones & accessories
     - icon: /images/uploads/shield.svg
       title: 3rd party liability
     - icon: /images/uploads/binoculars.svg
