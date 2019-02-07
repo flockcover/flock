@@ -7,11 +7,22 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: '@flockcover/gatsby-plugin-branch-web-sdk',	
+      resolve: 'gatsby-plugin-segment-js',
+      options: {
+        prodKey: 'J5p8puLW0RzI5J7x74TQioRNwBkoRei3',
+        devKey: 'hjQsqleIuNWqPzITXoC5ptb00148l3nN',
+        trackPage: true
+      }
+    },
+    {
+      resolve: '@flockcover/gatsby-plugin-branch-web-sdk',
       options: {
         prodBranchKey: 'key_live_jdrWlL9UY3OQcMssCT3ClbhkwvgXIaHJ',
         devBranchKey: 'key_test_olq2fIWPX0NUeGxsyG1xFhohFFj2OhL0'
       }
+    },
+    {
+      resolve: '@flockcover/gatsby-plugin-branch-segment-identify'
     },
     {
       resolve: 'gatsby-source-filesystem',
@@ -51,18 +62,10 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-netlify-cms',
     {
-      resolve: 'gatsby-plugin-segment-js',
-      options: {
-        prodKey: 'J5p8puLW0RzI5J7x74TQioRNwBkoRei3',
-        devKey: 'hjQsqleIuNWqPzITXoC5ptb00148l3nN',
-        trackPage: true
-      }
-    },
-    {
       resolve: 'gatsby-plugin-netlify-cms'
     },
     {
-      resolve: `gatsby-plugin-intercom-spa`,
+      resolve: 'gatsby-plugin-intercom-spa',
       options: {
         app_id: 'db51wrth'
       }

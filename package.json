@@ -5,6 +5,7 @@
   "author": "Max Murdoch <max@maxmurdo.ch>",
   "dependencies": {
     "@flockcover/gatsby-plugin-branch-web-sdk": "1.0.10",
+    "@flockcover/gatsby-plugin-branch-segment-identify": "1.0.1",
     "animate.css": "^3.6.1",
     "babel-plugin-emotion": "^9.1.2",
     "debounce": "^1.1.0",
