@@ -28,4 +28,4 @@ File order
 - Component
 - style object
 - PropTypes
-- export
+- export 
