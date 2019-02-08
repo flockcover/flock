@@ -12,7 +12,7 @@ hero:
       track: ''
   description: >-
     Welcome to fully flexible insurance you control. In a couple of taps, get
-    covered for an hour, day or month - whatever suits you.
+    covered for an hour, day or month - whatever suits you. Yo
   features:
     - rightIcon: /images/uploads/allianz.png
       title: Underwritten by
