@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home potato
 templateKey: home
 downloadLink: 'https://flockcover.app.link/6IW6kTmgfP'
 hero:
@@ -20,7 +20,7 @@ hero:
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: Instant customer support
-  header: 'Simpler, smarter drone insurance'
+  header: 'Simpler, smarter drone insurance poydyfdh'
 video:
   coverImage: /images/uploads/testimonial/1.jpg
   id: 3m_VorqXuNQ
