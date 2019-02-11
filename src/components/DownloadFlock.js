@@ -7,11 +7,13 @@ import Box from './Box'
 import PrimaryButton from './PrimaryButton'
 import H2 from './H2'
 import SiteContainer from './SiteContainer'
-import { downloadClickHandler } from '../utils/trackDownload'
+import {downloadClickHandler} from '../utils/trackDownload'
 
 const DownloadFlock = (to) => {
   const download = () => {
     downloadClickHandler()
+    console.log('to', to)
+    console.log('branch', branch)
     const linkAnonymousId = to.to + '?anonymous_id=' + analytics.user().anonymousId()
     window.open(linkAnonymousId, '_blank')
   }
@@ -38,7 +40,7 @@ const DownloadFlock = (to) => {
             justifyContent="center"
           >
             <PrimaryButton onClick={download}>
-              <ArrowText moveOnHover={false}>Download</ArrowText>
+              <ArrowText moveOnHover={false}>DownloadS</ArrowText>
             </PrimaryButton>
           </Box>
         </Flex>
