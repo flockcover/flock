@@ -32,7 +32,7 @@ why:
   description: >-
     With Fly Unlimited, you’ll receive all the benefits you’d expect from an
     annual policy - without the long-term commitment.
-  hidden: true
+  hidden: false
   title: Designed for frequent flyers
 how:
   description: >-
