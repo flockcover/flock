@@ -1,29 +1,27 @@
 ---
 title: Trainee
 templateKey: product
-navColor: light
 hero:
   backgroundImage: ../../images/uploads/trainee-header.jpg
-  textColor: white
   buttons:
-    - title: DOWNLOAD
-      to: 'https://flockcover.app.link/6IW6kTmgfP'
+    - branch: true
       color: yellow
       external: true
-      branch: true
-      track: 'Application Download Viewed'
-  features:
-    - title: Underwritten by
-      rightIcon: /images/uploads/allianz.png
-    - leftIcon: /images/uploads/black-tick-icon.png
-      title: FCA & CAA compliant
-    - leftIcon: /images/uploads/support-icon.png
-      title: 24/7 customer support
+      title: DOWNLOAD
+      to: 'https://flockcover.app.link/6IW6kTmgfP'
+      track: Application Download Viewed
   description: |-
     * Flight assessment and training insurance from £5.95
     * Drone and accessory cover (up to £3,000)
     * £1M Public Liability cover
     * Instant proof-of-insurance for PfCO applications
+  features:
+    - rightIcon: /images/uploads/allianz.png
+      title: Underwritten by
+    - leftIcon: /images/uploads/black-tick-icon.png
+      title: FCA & CAA compliant
+    - leftIcon: /images/uploads/support-icon.png
+      title: 24/7 customer support
   header: 'Pay-as-you-fly drone insurance for trainee pilots '
 why:
   description: >-
@@ -189,3 +187,4 @@ siteMetadataOverride:
     - pay-as-you-fly drone insurance
   title: Trainee pay-as-you-fly drone insurance
 ---
+
