@@ -1,8 +1,27 @@
+development_overrides:
+  # run file-system backend for local development
+  backend:
+    name: file-system
+    api_root: /api
+  # reset 'editorial_workflow' if enabled, since it breaks in file-system mode
+  # publish_mode: ''
+
+# regular configuration
 backend:
   name: github
+  squash_merges: true
   repo: flockcover/flock
+  branch: master
 
-publish_mode: editorial_workflow
+display_url: https://flockcover.com/
+# publish_mode: editorial_workflow
+
+
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+
+# publish_mode: editorial_workflow
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
