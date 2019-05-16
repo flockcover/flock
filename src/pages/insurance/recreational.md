@@ -4,7 +4,6 @@ templateKey: product
 navColor: dark
 hero:
   backgroundImage: ../../images/uploads/hobbyist-header.jpg
-  textColor: black
   buttons:
     - branch: true
       color: yellow
@@ -24,7 +23,8 @@ hero:
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: 24/7 customer support
-  header: 'Pay-as-you-fly drone insurance for recreational pilots  '
+  header: 'Pay-as-you-flky drone insurance for recreational pilots  '
+  textColor: black
 why:
   description: >-
     Enjoy your favourite hobby with peace of mind. Insure your flight in
@@ -180,3 +180,4 @@ siteMetadataOverride:
     - leisure drone insurance
   title: Recreational
 ---
+
