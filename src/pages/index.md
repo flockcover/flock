@@ -23,7 +23,7 @@ hero:
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: 24/7 customer support
-  header: 'Simpler, smarter drones insurance'
+  header: 'Simpler, smarter drone insurance'
 stopWorrying:
   description: >-
     Our community helps to shape the products and features we build. The result:
