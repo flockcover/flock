@@ -29,7 +29,7 @@ hero:
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: 24/7 customer support
-  header: Month-by-month commercial drone insurance that grows with youn
+  header: Month-by-month commercial drone insurance that grows with you
   smallPrint: >-
     *Maximum £75 discount off first month.
     [T&C's](https://help.flockcover.com/legal/free-month-fly-unlimited-tcs)
@@ -199,6 +199,6 @@ siteMetadataOverride:
     - on-demand
     - Flock
     - commercial drone insurance UK
-  title: Fly Unlimited
+  title: Fly Unlimited is awesoooooooooooooooooome
 ---
 
