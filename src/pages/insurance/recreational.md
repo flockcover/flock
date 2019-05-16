@@ -23,7 +23,7 @@ hero:
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
       title: 24/7 customer support
-  header: 'Pay-as-you-flky drone insurance for recreational pilots  '
+  header: 'Pay-as-you-fly drone insurance for recreational pilots  '
   textColor: black
 why:
   description: >-
