@@ -76,6 +76,9 @@ banner:
   hidden: false
   image: /images/uploads/white-paper-banner.jpg
   mainText: The future of insurance for connected drone fleets
+trustedBy:
+  header: Trusted by the best
+  image: /images/uploads/enterprise-trusted-banner.png
 siteMetadataOverride:
   description: drone insurance
   keywords:
