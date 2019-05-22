@@ -1,6 +1,7 @@
 ---
 title: Trainee
 templateKey: product
+navColor: light
 hero:
   backgroundImage: ../../images/uploads/trainee-header.jpg
   buttons:
@@ -21,8 +22,9 @@ hero:
     - leftIcon: /images/uploads/black-tick-icon.png
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
-      title: 24/7 customer support
+      title: Live customer support
   header: 'Pay-as-you-fly drone insurance for trainee pilots '
+  textColor: white
 why:
   description: >-
     Flock has helped over 500 drone pilots obtain their Permission for
