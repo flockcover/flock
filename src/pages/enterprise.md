@@ -22,7 +22,7 @@ hero:
     - leftIcon: /images/uploads/black-tick-icon.png
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
-      title: 24/7 customer support
+      title: Live customer support
   header: Drone insurance that adapts to your dynamic fleet
 why:
   description: >-
@@ -81,4 +81,3 @@ siteMetadataOverride:
     - commercial drone insurance UK
   title: Fully flexible drone insurance for commercial pilots
 ---
-

@@ -122,6 +122,9 @@ whatIsCovered:
     - icon: /images/uploads/megaphone.svg
       title: Noise complaints
   mainTitle: What's covered?
+  productType: FLY UNLIMITED
+  fromText: from
+  perText: per month**
   policyFeatureList:
     - text: Unlimited commercial flights in the UK
     - text: In-and-out of flight equipment cover (up to £25K in-flight limit)
@@ -137,6 +140,7 @@ banner:
   buttonTrack: ''
   buttonUrl: >-
     https://help.flockcover.com/drone-regulation/how-do-i-get-my-proof-of-insurance-document-for-my-pfco-application
+  buttonColor: yellow
   hidden: false
   image: /images/uploads/renewal-drone.jpg
   mainText: Applying for your PfCO? Get a Flock insurance certificate.
@@ -201,4 +205,3 @@ siteMetadataOverride:
     - commercial drone insurance UK
   title: Fly Unlimited
 ---
-

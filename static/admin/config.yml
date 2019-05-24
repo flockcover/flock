@@ -450,6 +450,15 @@ collections:
               - name: fromPrice
                 label: From Price
                 widget: string
+              - name: productType
+                label: Product Type
+                widget: string
+              - name: fromText
+                label: From Text
+                widget: string
+              - name: perText
+                label: Per Text
+                widget: string
               - name: policyFeatureList
                 label: Policy Features
                 widget: list
@@ -483,6 +492,13 @@ collections:
                 label: Button URL
                 widget: string
                 required: false
+              - name: buttonColor
+                label: Button Color
+                widget: select
+                options:
+                  - { label: Yellow, value: yellow }
+                  - { label: Black, value: black }
+                  - { label: White, value: white }
               - name: buttonTrack
                 label: Button Track
                 widget: select

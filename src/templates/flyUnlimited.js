@@ -150,18 +150,6 @@ class FlyUnlimitedPageTemplate extends Component {
   }
 }
 
-const style = {
-  heroImage: css({
-    marginBottom: 0,
-    display: 'block',
-    height: 'auto',
-    width: '60%',
-    [`@media (max-width: ${R.nth(1, breakpoints)})`]: {
-      width: '100%'
-    }
-  })
-}
-
 FlyUnlimitedPageTemplate.propTypes = {
   hero: PropTypes.object,
   flockStory: PropTypes.object,
@@ -234,6 +222,7 @@ export const query = graphql`
           buttonText
           buttonUrl
           buttonTrack
+          buttonColor
         }
         whatIsCovered {
           hidden
