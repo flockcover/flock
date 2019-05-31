@@ -76,9 +76,11 @@ how:
         hidden fees or ambiguous exit clauses.
       title: Pause or cancel anytime*
   policyPauseSmallPrint: >-
-    Changes that increase your coverage will take effect immediately. If you
-    downgrade, pause or cancel your cover, this will take effect on your next
-    monthly renewal date.
+    Amendments to your coverage take effect immediately. If you increase your
+    coverage, you will be charged immediately. If you reduce your coverage, your
+    new policy price will take effect at your next renewal date. If you pause or
+    cancel your policy, your coverage will remain in place until the end of the
+    policy period but will not renew.
   title: The first flexible cover of its kind
 control:
   description: >-
@@ -99,6 +101,7 @@ whatIsCovered:
   buttonOneText: GET A PRICE
   buttonOneUrl: 'https://my.flockcover.com'
   fromPrice: £24.95
+  fromText: from
   hidden: false
   mainDescription: >-
     View the [Key
@@ -122,25 +125,24 @@ whatIsCovered:
     - icon: /images/uploads/megaphone.svg
       title: Noise complaints
   mainTitle: What's covered?
-  productType: FLY UNLIMITED
-  fromText: from
   perText: per month**
   policyFeatureList:
     - text: Unlimited commercial flights in the UK
     - text: In-and-out of flight equipment cover (up to £25K in-flight limit)
     - text: Public Liability insurance up to £10M
     - text: Option to extend cover worldwide
+  productType: FLY UNLIMITED
   smallPrints:
     - text: >-
         \** Prices depend on factors such as experience, equipment and claims
         history.
     - text: \+ Available if multiple pilots are operating under a single PfCO.
 banner:
+  buttonColor: yellow
   buttonText: FIND OUT HOW
   buttonTrack: ''
   buttonUrl: >-
     https://help.flockcover.com/drone-regulation/how-do-i-get-my-proof-of-insurance-document-for-my-pfco-application
-  buttonColor: yellow
   hidden: false
   image: /images/uploads/renewal-drone.jpg
   mainText: Applying for your PfCO? Get a Flock insurance certificate.
@@ -205,3 +207,4 @@ siteMetadataOverride:
     - commercial drone insurance UK
   title: Fly Unlimited
 ---
+
