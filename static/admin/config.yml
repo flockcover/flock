@@ -1168,6 +1168,7 @@ collections:
               - name: description
                 label: Description
                 widget: markdown
+                required: false
               - name: buttons
                 label: Buttons
                 widget: list
@@ -1224,7 +1225,7 @@ collections:
               - {name: 'image', label: 'Image', widget: 'image'}
               - {name: 'imageHeader', label: 'Image header', widget: 'string'}
               - {name: 'bigText', label: 'Big text', widget: 'markdown'}
-              - {name: 'smallText', label: 'Small text', widget: 'markdown'}
+              - {name: 'smallText', label: 'Small text', widget: 'markdown', required: false}
           - name: coreValues
             label: Core values
             widget: object
