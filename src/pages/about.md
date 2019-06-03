@@ -27,7 +27,7 @@ flockStory:
     the insurance industry - and we’re just getting started!
   header: 'Our Story '
   image: /images/uploads/backers.png
-  imageHeader: 'We’re backed by some of the best in the business:'
+  imageHeader: 'We’re backed by some of the best in the businesss:'
   smallText: ''
 coreValues:
   description: Everything we do at Flock is guided by our values
@@ -108,3 +108,4 @@ siteMetadataOverride:
     - commercial drone insurance
   title: "Flock –\_About"
 ---
+
