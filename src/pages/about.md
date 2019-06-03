@@ -97,6 +97,15 @@ meetTheTeam:
     - image: /images/uploads/tommy-wilson-headshot.jpg
       member: 'Tommy Wilson '
       role: Drone Partnerships Manager
+    - image: /images/uploads/barry.jpg
+      member: 'Barry Hamman '
+      role: Product Manager
+    - image: /images/uploads/img_3761.jpg
+      member: 'Jimmy Breck-McKye '
+      role: Software Engineer
+    - image: /images/uploads/ali-lines.jpg
+      member: 'Ali Lines '
+      role: Enterprise Insurance Broker
   title: Meet the team
 siteMetadataOverride:
   description: drone insurance
@@ -108,3 +117,4 @@ siteMetadataOverride:
     - commercial drone insurance
   title: "Flock –\_About"
 ---
+
