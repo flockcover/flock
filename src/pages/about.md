@@ -24,7 +24,7 @@ flockStory:
 
 
     Our technology and service is now transforming both the drone industry and
-    the insurance industry - and we’re just getting started!
+    the insurance industry - and we’re just getting started.
   header: 'Our Story '
   image: /images/uploads/backers.png
   imageHeader: 'We’re backed by some of the best in the business:'
@@ -108,3 +108,4 @@ siteMetadataOverride:
     - commercial drone insurance
   title: "Flock –\_About"
 ---
+
