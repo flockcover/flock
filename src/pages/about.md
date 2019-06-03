@@ -97,7 +97,7 @@ meetTheTeam:
     - image: /images/uploads/tommy-wilson-headshot.jpg
       member: 'Tommy Wilson '
       role: Drone Partnerships Manager
-    - image: /images/uploads/barry-v3.png
+    - image: /images/uploads/v4.png
       member: 'Barry Hamman '
       role: Product Manager
     - image: /images/uploads/jimmy.png
