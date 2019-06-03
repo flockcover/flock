@@ -97,13 +97,13 @@ meetTheTeam:
     - image: /images/uploads/tommy-wilson-headshot.jpg
       member: 'Tommy Wilson '
       role: Drone Partnerships Manager
-    - image: /images/uploads/barry.jpg
+    - image: /images/uploads/barry.png
       member: 'Barry Hamman '
       role: Product Manager
-    - image: /images/uploads/img_3761.jpg
+    - image: /images/uploads/jimmy.png
       member: 'Jimmy Breck-McKye '
       role: Software Engineer
-    - image: /images/uploads/ali-lines.jpg
+    - image: /images/uploads/ali.png
       member: 'Ali Lines '
       role: Enterprise Insurance Broker
   title: Meet the team
