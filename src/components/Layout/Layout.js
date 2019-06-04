@@ -66,7 +66,7 @@ a.inline-link:visited {
 }
 `
 
-export default ({children}) => (
+const Layout = ({children}) => (
   <StaticQuery
     query={graphql`
       query SettingsQuery {
@@ -100,6 +100,27 @@ export default ({children}) => (
               {rel: 'shortcut icon', type: 'image/ico', href: `${favicon}`}
             ]}
           >
+            <meta property="og:type" content="website" />
+            
+            <meta
+              property="og:title"
+              content="Flock Cover | Pay-as-you-fly drone insurance"
+            />
+
+            <meta property="og:url" content="https://flockcover.com/" />
+
+            <meta
+              property="og:description"
+              content="At Flock, we’re creating smarter drone insurance. Get fully customised cover for your drone, precisely when you need it. Download the app and get a real-time quote in seconds."
+            />
+
+            <meta
+              property="og:image"
+              content="https://monzo.com/static/images/facebook-campaign-image-01.png"
+            />
+
+            <meta property="og:locale" content="en_GB" />
+
             <script type="application/ld+json">
               {JSON.stringify({
                 '@context': 'http://schema.org',
@@ -226,3 +247,5 @@ export default ({children}) => (
     )}
   />
 )
+
+export default Layout
