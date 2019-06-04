@@ -3,20 +3,15 @@ import Helmet from 'react-helmet'
 import * as R from 'ramda'
 
 const Head = ({frontmatter, favicon}) => (
-  <Helmet
-    title={frontmatter.siteMetadata.title}
-    meta={[
-      {
-        name: 'description',
-        content: frontmatter.siteMetadata.description
-      },
-      {
-        name: 'keywords',
-        content: R.join(',', frontmatter.siteMetadata.keywords)
-      }
-    ]}
-    link={[{rel: 'shortcut icon', type: 'image/ico', href: `${favicon}`}]}
-  >
+  <Helmet>
+    <title>{frontmatter.siteMetadata.title}</title>
+    <link rel="shortcut icon" type="image/ico" href={favicon} />
+    <meta name="description" content={frontmatter.siteMetadata.description} />
+    <meta
+      name="keywords"
+      content={R.join(',', frontmatter.siteMetadata.keywords)}
+    />
+
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
