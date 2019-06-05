@@ -6,11 +6,18 @@ hero:
   backgroundImage: ../../images/uploads/enterprise-hero.png
   buttons:
     - border: false
-      branch: true
+      branch: false
       color: yellow
       external: false
       title: GET IN TOUCH
       to: '#intercom'
+      track: ''
+    - border: true
+      branch: false
+      color: white
+      external: true
+      title: DOWNLOAD WHITE PAPER
+      to: https://www.boxingscene.com
       track: ''
   description: |-
     * Bespoke policies that reflect the usage and risk of your fleet
@@ -64,7 +71,7 @@ banner:
   buttonUrl: >-
     https://blog.flockcover.com/flocks-essential-guide-to-pfco-renewals-dac39542e16a
   header: FREE WHITE PAPER
-  hidden: true
+  hidden: false
   image: /images/uploads/white-paper-banner.jpg
   mainText: The future of insurance for connected drone fleets
 trustedBy:
