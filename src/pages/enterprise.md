@@ -17,7 +17,7 @@ hero:
       color: white
       external: true
       title: DOWNLOAD WHITE PAPER
-      to: https://www.boxingscene.com
+      to: /enterprise/whitepaper
       track: ''
   description: |-
     * Bespoke policies that reflect the usage and risk of your fleet
@@ -68,8 +68,7 @@ banner:
   buttonColor: white
   buttonText: DOWNLOAD WHITE PAPER
   buttonTrack: ''
-  buttonUrl: >-
-    https://blog.flockcover.com/flocks-essential-guide-to-pfco-renewals-dac39542e16a
+  buttonUrl: /enterprise/whitepaper
   header: FREE WHITE PAPER
   hidden: false
   image: /images/uploads/white-paper-banner.jpg
