@@ -134,15 +134,15 @@ productTabs:
         480260](tel:+4401234480260) to request a quote.
       productCards:
         - buttonOneExternal: false
-          buttonOneText: CONTACT US
-          buttonOneUrl: '#intercom'
+          buttonOneText: VIEW ALL FEATURES
+          buttonOneUrl: '/enterprise'
           fromPrice: £POA
           icon: /images/uploads/double-drone.svg
           policyFeatureList:
             - text: Comprehensive annual risk-based cover (in-and-out of flight)
-            - text: Fully flexible equipment and Public Liability insurance
+            - text: Bespoke equipment cover for fleets of any size and drone type, with flexible liability limits (up to £25M)
             - text: Per-flight and portfolio risk mitigation insights
-            - text: Dedicated 24/7 customer support
+            - text: Dedicated account manager
           productType: ENTERPRISE
       title: Enterprise
   description: >-
@@ -185,4 +185,3 @@ siteMetadataOverride:
     - Flock Cover
   title: 'Flock | Simpler, smarter drone insurance'
 ---
-
