@@ -10,12 +10,12 @@ hero:
       color: yellow
       external: false
       title: GET IN TOUCH
-      to: '#intercom'
+      to: /enterprise/contact
       track: ''
     - border: true
       branch: false
       color: white
-      external: true
+      external: false
       title: DOWNLOAD WHITE PAPER
       to: /enterprise/whitepaper
       track: ''
