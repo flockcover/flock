@@ -15,11 +15,11 @@ const Head = ({frontmatter, favicon}) => (
 
      {/* OpenGraph tags */}
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://flockcover.com/" />
     <meta
       property="og:title"
       content="Flock Cover | Pay-as-you-fly drone insurance"
     />
-    <meta property="og:url" content="https://flockcover.com" />
     <meta
       property="og:description"
       content="At Flock, we’re creating smarter drone insurance. Get fully customised cover for your drone, precisely when you need it. Download the app and get a real-time quote in seconds."
@@ -28,12 +28,10 @@ const Head = ({frontmatter, favicon}) => (
       property="og:image"
       content="https://flockcover.com/images/Social-Banner.png"
     />
-    <meta property="og:locale" content="en_GB" />
 
     {/* Twitter Card tags */}
-    <meta property="twitter:url" content="https://flockcover.com" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:site" content="@flockcover" />
+    <meta property="twitter:url" content="https://flockcover.com/" />
     <meta
       property="twitter:title"
       content="Flock Cover | Pay-as-you-fly drone insurance"
@@ -46,7 +44,6 @@ const Head = ({frontmatter, favicon}) => (
       property="twitter:image"
       content="https://flockcover.com/images/Social-Banner.png"
     />
-    <meta property="twitter:widgets:csp" content="on" />
 
     <script type="application/ld+json">
       {JSON.stringify({
