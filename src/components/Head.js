@@ -4,6 +4,7 @@ import * as R from 'ramda'
 
 const Head = ({frontmatter, favicon}) => (
   <Helmet>
+    {/* General tags */}
     <title>{frontmatter.siteMetadata.title}</title>
     <link rel="shortcut icon" type="image/ico" href={favicon} />
     <meta name="description" content={frontmatter.siteMetadata.description} />
@@ -12,12 +13,13 @@ const Head = ({frontmatter, favicon}) => (
       content={R.join(',', frontmatter.siteMetadata.keywords)}
     />
 
+     {/* OpenGraph tags */}
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
       content="Flock Cover | Pay-as-you-fly drone insurance"
     />
-    <meta property="og:url" content="https://flockcover.com/" />
+    <meta property="og:url" content="https://flockcover.com" />
     <meta
       property="og:description"
       content="At Flock, we’re creating smarter drone insurance. Get fully customised cover for your drone, precisely when you need it. Download the app and get a real-time quote in seconds."
@@ -28,6 +30,7 @@ const Head = ({frontmatter, favicon}) => (
     />
     <meta property="og:locale" content="en_GB" />
 
+    {/* Twitter Card tags */}
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content="@flockcover" />
     <meta
