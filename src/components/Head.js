@@ -31,7 +31,7 @@ const Head = ({frontmatter, favicon}) => (
     <meta property="og:locale" content="en_GB" />
 
     {/* Twitter Card tags */}
-    <meta property="twitter:url" content="https://flockcover.com"
+    <meta property="twitter:url" content="https://flockcover.com">
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content="@flockcover" />
     <meta
