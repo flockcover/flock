@@ -32,6 +32,9 @@ const EnterpriseTemplate = ({
           title={siteMetadataOverride.title}
           description={siteMetadataOverride.description}
           keywords={siteMetadataOverride.keywords}
+          openGraph={{
+            ogTitle: 'Flock Cover | Simpler, smarter drone insurance'
+          }}
         />
         {navColor === 'light' ? <LightNav /> : <DarkNav />}
         <Box css={css({backgroundColor: 'white'})}>
@@ -81,7 +84,7 @@ const EnterpriseTemplate = ({
 
         {!trustedBy.hidden && (
           <Box pt={[3, 5]}>
-            <Featured header={trustedBy.header} image={trustedBy.image}/>
+            <Featured header={trustedBy.header} image={trustedBy.image} />
           </Box>
         )}
 
