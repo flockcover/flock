@@ -23,7 +23,9 @@ const EnterpriseTemplate = ({
   siteMetadataOverride,
   testimonial,
   banner,
-  trustedBy
+  trustedBy,
+  openGraph,
+  twitter
 }) => {
   return (
     <StickyContainer>
@@ -32,6 +34,12 @@ const EnterpriseTemplate = ({
           title={siteMetadataOverride.title}
           description={siteMetadataOverride.description}
           keywords={siteMetadataOverride.keywords}
+          ogTitle={siteMetadataOverride.openGraph.title}
+          ogDescription={siteMetadataOverride.openGraph.description}
+          ogImage={siteMetadataOverride.openGraph.image}
+          twtTitle={siteMetadataOverride.twitter.title}
+          twtDescription={siteMetadataOverride.twitter.description}
+          twtImage={siteMetadataOverride.twitter.image}
         />
         {navColor === 'light' ? <LightNav /> : <DarkNav />}
         <Box css={css({backgroundColor: 'white'})}>
@@ -81,7 +89,7 @@ const EnterpriseTemplate = ({
 
         {!trustedBy.hidden && (
           <Box pt={[3, 5]}>
-            <Featured header={trustedBy.header} image={trustedBy.image}/>
+            <Featured header={trustedBy.header} image={trustedBy.image} />
           </Box>
         )}
 
@@ -183,6 +191,16 @@ export const query = graphql`
           title
           description
           keywords
+          openGraph {
+            title
+            description
+            image
+          }
+          twitter {
+            title
+            description
+            image
+          }
         }
       }
     }

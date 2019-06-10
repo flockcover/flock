@@ -126,5 +126,12 @@ siteMetadataOverride:
     - Flock
     - commercial drone insurance UK
   title: Fully flexible drone insurance for commercial pilots
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---
-

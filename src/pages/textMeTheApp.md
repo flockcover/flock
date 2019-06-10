@@ -10,6 +10,14 @@ siteMetadataOverride:
     - Flock
     - commercial drone insurance UK
   title: Download Flock Cover
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 header:
  backIcon: /images/uploads/chevron.svg
  backText: BACK TO THE WEBSITE

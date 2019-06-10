@@ -65,5 +65,13 @@ siteMetadataOverride:
   description: ''
   keywords:
     - ''
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 
 ---

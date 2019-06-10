@@ -42,6 +42,12 @@ class FlyUnlimitedPageTemplate extends Component {
               title={siteMetadataOverride.title}
               description={siteMetadataOverride.description}
               keywords={siteMetadataOverride.keywords}
+              ogTitle={siteMetadataOverride.openGraph.title}
+              ogDescription={siteMetadataOverride.openGraph.description}
+              ogImage={siteMetadataOverride.openGraph.image}
+              twtTitle={siteMetadataOverride.twitter.title}
+              twtDescription={siteMetadataOverride.twitter.description}
+              twtImage={siteMetadataOverride.twitter.image}
             />
             <LightNav />
             <Box css={css({backgroundColor: 'white', paddingBottom: 75})}>
@@ -261,6 +267,16 @@ export const query = graphql`
           title
           description
           keywords
+          openGraph {
+            title
+            description
+            image
+          }
+          twitter {
+            title
+            description
+            image
+          }
         }
       }
     }

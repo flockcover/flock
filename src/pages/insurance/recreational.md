@@ -179,5 +179,12 @@ siteMetadataOverride:
     - drone insurance uk
     - leisure drone insurance
   title: Recreational
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---
-

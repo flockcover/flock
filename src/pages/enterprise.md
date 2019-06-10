@@ -80,4 +80,12 @@ siteMetadataOverride:
     - Flock
     - commercial drone insurance UK
   title: Fully flexible drone insurance for commercial pilots
+  openGraph:
+    title: Flock Enterprise | Connected drone fleet insurance
+    description: 'Tailor-made insurance for drone enterprises. Receive a customised policy that reflect the usage and risk of your fleet, along with actionable insights to help you fly safer.'
+    image: ''
+  twitter:
+    title: Flock Enterprise | Connected drone fleet insurance
+    description: 'Tailor-made insurance for drone enterprises. Receive a customised policy that reflect the usage and risk of your fleet, along with actionable insights to help you fly safer.'
+    image: ''
 ---

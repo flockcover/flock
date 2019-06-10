@@ -184,4 +184,12 @@ siteMetadataOverride:
     - Flock
     - Flock Cover
   title: 'Flock | Simpler, smarter drone insurance'
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---

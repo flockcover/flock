@@ -206,5 +206,12 @@ siteMetadataOverride:
     - Flock
     - commercial drone insurance UK
   title: Fly Unlimited
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---
-
