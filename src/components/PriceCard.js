@@ -148,6 +148,7 @@ const PriceCard = ({
 
       {buttonTwoText && buttonTwoUrl && (
         <PrimaryButton
+          id={`${productType} - product card - button 2`}
           to={buttonTwoUrl}
           external={buttonTwoExternal}
           title={buttonTwoText}

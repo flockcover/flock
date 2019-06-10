@@ -37,12 +37,16 @@ const EnterpriseTemplate = ({
           ogTitle={siteMetadataOverride.openGraph.title}
           ogDescription={siteMetadataOverride.openGraph.description}
           ogImage={siteMetadataOverride.openGraph.image}
-          webPageName='enterprise'
+          webPageName="enterprise"
           twtTitle={siteMetadataOverride.twitter.title}
           twtDescription={siteMetadataOverride.twitter.description}
           twtImage={siteMetadataOverride.twitter.image}
         />
-        {navColor === 'light' ? <LightNav /> : <DarkNav />}
+        {navColor === 'light' ? (
+          <LightNav getAppButtonId="Enterprise page - Get-the-app button" />
+        ) : (
+          <DarkNav getAppButtonId="Enterprise page - Get-the-app button" />
+        )}
         <Box css={css({backgroundColor: 'white'})}>
           <Hero
             headerCSS={{
@@ -75,6 +79,7 @@ const EnterpriseTemplate = ({
           {!banner.hidden && (
             <Box pt={[3, 6]}>
               <Banner
+                buttonId="Banner Get-whitepaper button"
                 header={banner.header}
                 image={banner.image}
                 mainText={banner.mainText}

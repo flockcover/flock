@@ -24,7 +24,7 @@ const Banner = ({
     if (buttonTrack) analytics.track(buttonTrack)
     window.open(buttonUrl)
   }
-
+  
   return (
     <Flex
       justifyContent="center"
