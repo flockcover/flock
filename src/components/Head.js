@@ -18,11 +18,11 @@ const Head = ({frontmatter, favicon}) => (
     <meta property="og:url" content="https://flockcover.com/" />
     <meta
       property="og:title"
-      content="Flock Cover | Pay-as-you-fly drone insurance"
+      content="Flock Cover | Simpler, smarter drone insurance"
     />
     <meta
       property="og:description"
-      content="At Flock, we’re creating smarter drone insurance. Get fully customised cover for your drone, precisely when you need it. Download the app and get a real-time quote in seconds."
+      content="Fully flexible drone insurance for commercial, training, and recreational pilots. Get covered by the hour, day, or month - whatever suits you."
     />
     <meta
       property="og:image"
@@ -34,11 +34,11 @@ const Head = ({frontmatter, favicon}) => (
     <meta name="twitter:url" content="https://flockcover.com/" />
     <meta
       name="twitter:title"
-      content="Flock Cover | Pay-as-you-fly drone insurance"
+      content="Flock Cover | Simpler, smarter drone insurance"
     />
     <meta
       name="twitter:description"
-      content="At Flock, we’re creating smarter drone insurance. Get fully customised cover for your drone, precisely when you need it. Download the app and get a real-time quote in seconds."
+      content="Fully flexible drone insurance for commercial, training, and recreational pilots. Get covered by the hour, day, or month - whatever suits you."
     />
     <meta
       name="twitter:image"

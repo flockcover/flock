@@ -17,7 +17,17 @@ const noneNil = R.any(notNil)
 
 const isValid = R.allPass([notNil, notEmpty, noneNil])
 
-const SiteMetadata = ({title, description, keywords = []}) => {
+const SiteMetadata = ({
+  title,
+  description,
+  keywords = [],
+  ogTitle,
+  ogDescription,
+  ogImage,
+  twtTitle,
+  twtDescription,
+  twtImage
+}) => {
   const formattedKeywords = isValid(keywords) ? R.join(',', keywords) : keywords
 
   return (
@@ -28,6 +38,24 @@ const SiteMetadata = ({title, description, keywords = []}) => {
       ) : null}
       {isValid(keywords) ? (
         <meta name="keywords" content={formattedKeywords} />
+      ) : null}
+
+      {/* OpenGraph tags */}
+      {isValid(ogTitle) ? <meta property="og:title" content={ogTitle} /> : null}
+      {isValid(ogDescription) ? (
+        <meta property="og:description" content={ogDescription} />
+      ) : null}
+      {isValid(ogImage) ? <meta property="og:image" content={ogImage} /> : null}
+
+      {/* Twitter Card tags */}
+      {isValid(twtTitle) ? (
+        <meta property="twitter:title" content={ogTitle} />
+      ) : null}
+      {isValid(twtDescription) ? (
+        <meta property="twitter:description" content={twtDescription} />
+      ) : null}
+      {isValid(twtImage) ? (
+        <meta property="twitter:image" content={ogImage} />
       ) : null}
     </Helmet>
   )
