@@ -21,6 +21,7 @@ const SiteMetadata = ({
   title,
   description,
   keywords = [],
+  webPageName,
   ogTitle,
   ogDescription,
   ogImage,
@@ -41,6 +42,12 @@ const SiteMetadata = ({
       ) : null}
 
       {/* OpenGraph tags */}
+      {isValid(webPageName) ? (
+        <meta
+          property="og:url"
+          content={`https://flockcover.com/${webPageName}`}
+        />
+      ) : null}
       {isValid(ogTitle) ? <meta property="og:title" content={ogTitle} /> : null}
       {isValid(ogDescription) ? (
         <meta property="og:description" content={ogDescription} />

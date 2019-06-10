@@ -35,6 +35,7 @@ const CommercialTemplate = ({
           title={siteMetadataOverride.title}
           description={siteMetadataOverride.description}
           keywords={siteMetadataOverride.keywords}
+          webPageName="insurance/commercial"
           ogTitle={siteMetadataOverride.openGraph.title}
           ogDescription={siteMetadataOverride.openGraph.description}
           ogImage={siteMetadataOverride.openGraph.image}
