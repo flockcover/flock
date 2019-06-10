@@ -63,7 +63,7 @@ banner:
   buttonTrack: ''
   buttonUrl: /enterprise/whitepaper
   header: FREE WHITE PAPER
-  hidden: true
+  hidden: false
   image: /images/uploads/white-paper-banner.jpg
   mainText: The future of insurance for connected drone fleets
 trustedBy:
