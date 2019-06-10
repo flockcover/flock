@@ -116,5 +116,12 @@ siteMetadataOverride:
     - Flock
     - commercial drone insurance
   title: "Flock –\_About"
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---
-

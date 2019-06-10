@@ -188,4 +188,12 @@ siteMetadataOverride:
     - trainee drone insurance
     - pay-as-you-fly drone insurance
   title: Trainee pay-as-you-fly drone insurance
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---

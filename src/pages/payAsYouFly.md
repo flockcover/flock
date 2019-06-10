@@ -291,5 +291,12 @@ siteMetadataOverride:
     recreational pilots. Policies are underwritten by Allianz, the world’s
     leading aviation insurer.
   title: 'Flock | Simpler, smarter drone insurance'
+  openGraph:
+    title: ''
+    description: ''
+    image: ''
+  twitter:
+    title: ''
+    description: ''
+    image: ''
 ---
-
