@@ -112,6 +112,7 @@ const HomeTemplate = ({
                 buttonUrl={banner.buttonUrl}
                 buttonTrack={banner.buttonTrack}
                 buttonColor={banner.buttonColor}
+                buttonId='Go to FAQ button'
               />
             )}
           </Box>
