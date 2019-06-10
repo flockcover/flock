@@ -12,13 +12,6 @@ hero:
       title: GET IN TOUCH
       to: /enterprise/contact
       track: ''
-    - border: true
-      branch: false
-      color: white
-      external: false
-      title: DOWNLOAD WHITE PAPER
-      to: /enterprise/whitepaper
-      track: ''
   description: |-
     * Tailor-made policies that reflect the actual usage and risk profile of your drone fleet
     * Bespoke equipment cover for fleets of any size and drone type, with flexible liability limits (up to £25M)
@@ -64,7 +57,7 @@ banner:
   buttonTrack: ''
   buttonUrl: /enterprise/whitepaper
   header: FREE WHITE PAPER
-  hidden: false
+  hidden: true
   image: /images/uploads/white-paper-banner.jpg
   mainText: The future of insurance for connected drone fleets
 trustedBy:

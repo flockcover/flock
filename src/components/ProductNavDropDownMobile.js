@@ -77,12 +77,12 @@ const buttonContent = [
       }
     ]
   },
-  {
-    to: '/enterprise',
-    text: 'ENTERPRISE',
-    hasIcon: true,
-    options: []
-  }
+  // {
+  //   to: '/enterprise',
+  //   text: 'ENTERPRISE',
+  //   hasIcon: true,
+  //   options: []
+  // }
 ]
 
 export default ProductNavDropDown

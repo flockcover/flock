@@ -44,7 +44,7 @@ const ProductNavDropDown = ({productsIsOpen}) => {
                     },
 
                     '@media (min-width: 1200px)': {
-                      width: '25%'
+                      width: '33.3333%'
                     }
                   })}
                 >
@@ -110,12 +110,12 @@ const buttonContent = [
       }
     ]
   },
-  {
-    to: '/enterprise',
-    text: 'ENTERPRISE',
-    hasIcon: true,
-    options: []
-  }
+  // {
+  //   to: '/enterprise',
+  //   text: 'ENTERPRISE',
+  //   hasIcon: true,
+  //   options: []
+  // }
 ]
 
 export default ProductNavDropDown
