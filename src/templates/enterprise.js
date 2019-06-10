@@ -37,6 +37,7 @@ const EnterpriseTemplate = ({
           ogTitle={siteMetadataOverride.openGraph.title}
           ogDescription={siteMetadataOverride.openGraph.description}
           ogImage={siteMetadataOverride.openGraph.image}
+          webPageName='enterprise'
           twtTitle={siteMetadataOverride.twitter.title}
           twtDescription={siteMetadataOverride.twitter.description}
           twtImage={siteMetadataOverride.twitter.image}

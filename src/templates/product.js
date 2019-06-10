@@ -28,6 +28,7 @@ import {colors} from '../constants/theme'
 
 const SegmentPageTemplate = ({data}) => {
   const {
+    title,
     navColor,
     hero,
     why,
@@ -49,6 +50,7 @@ const SegmentPageTemplate = ({data}) => {
             title={siteMetadataOverride.title}
             description={siteMetadataOverride.description}
             keywords={siteMetadataOverride.keywords}
+            webPageName={`insurance/${title}`.toLowerCase()}
             ogTitle={siteMetadataOverride.openGraph.title}
             ogDescription={siteMetadataOverride.openGraph.description}
             ogImage={siteMetadataOverride.openGraph.image}

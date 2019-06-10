@@ -42,6 +42,7 @@ class FlyUnlimitedPageTemplate extends Component {
               title={siteMetadataOverride.title}
               description={siteMetadataOverride.description}
               keywords={siteMetadataOverride.keywords}
+              webPageName='flyUnlimited'
               ogTitle={siteMetadataOverride.openGraph.title}
               ogDescription={siteMetadataOverride.openGraph.description}
               ogImage={siteMetadataOverride.openGraph.image}

@@ -45,6 +45,7 @@ const PayAsYouFlyTemplate = ({
             title={siteMetadataOverride.title}
             description={siteMetadataOverride.description}
             keywords={siteMetadataOverride.keywords}
+            webPageName='payAsYouFly'
             ogTitle={siteMetadataOverride.openGraph.title}
             ogDescription={siteMetadataOverride.openGraph.description}
             ogImage={siteMetadataOverride.openGraph.image}

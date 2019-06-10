@@ -5,10 +5,7 @@ import {Collapse} from 'react-collapse'
 
 import SiteContainer from './SiteContainer'
 import Flex from './Flex'
-// import Box from './Box'
 import PrimaryButton from './NavPrimaryButton'
-// import SecondaryButton from './NavSecondaryButton'
-// import ProductLink from './ProductLink'
 import {colors, breakpoints} from '../constants/theme'
 
 const mapIndex = R.addIndex(R.map)
@@ -47,7 +44,7 @@ const ProductNavDropDown = ({productsIsOpen}) => {
                     },
 
                     '@media (min-width: 1200px)': {
-                      width: '33.333%'
+                      width: '25%'
                     }
                   })}
                 >
@@ -113,12 +110,12 @@ const buttonContent = [
       }
     ]
   },
-  // {
-  //   to: '/enterprise',
-  //   text: 'ENTERPRISE',
-  //   hasIcon: true,
-  //   options: []
-  // }
+  {
+    to: '/enterprise',
+    text: 'ENTERPRISE',
+    hasIcon: true,
+    options: []
+  }
 ]
 
 export default ProductNavDropDown

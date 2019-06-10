@@ -6,23 +6,30 @@ hero:
   backgroundImage: ../../images/uploads/enterprise-hero.png
   buttons:
     - border: false
-      branch: true
+      branch: false
       color: yellow
       external: false
       title: GET IN TOUCH
-      to: '#intercom'
+      to: /enterprise/contact
+      track: ''
+    - border: true
+      branch: false
+      color: white
+      external: false
+      title: DOWNLOAD WHITE PAPER
+      to: /enterprise/whitepaper
       track: ''
   description: |-
-    * Bespoke policies that reflect the usage and risk of your fleet
-    * Coverage for drone fleets of any size, no matter the use case
-    * Receive actionable insights into mitigating your risk profile
+    * Tailor-made policies that reflect the actual usage and risk profile of your drone fleet
+    * Bespoke equipment cover for fleets of any size and drone type, with flexible liability limits (up to £25M)
+    * Actionable insights to help optimise, manage, and mitigate fleet risk
   features:
     - rightIcon: /images/uploads/allianz.png
       title: Underwritten by
     - leftIcon: /images/uploads/black-tick-icon.png
       title: FCA & CAA compliant
     - leftIcon: /images/uploads/support-icon.png
-      title: Live customer support
+      title: Dedicated account manager
   header: Drone insurance that adapts to your dynamic fleet
 why:
   description: >-
@@ -32,21 +39,15 @@ why:
   list:
     - icon: /images/uploads/money-shield-icon.svg
       text: >-
-        Your premium is tailored to your fleet’s usage and risk exposure, with
-        safer flights rewarded with lower prices. Transparency such as this
-        ensures you have the ultimate control over the price of your insurance.
+        The cost of your policy is personalised to the usage and risk exposure of your fleet. Safer flights are rewarded with lower prices. Increased transparency provides ultimate control over the price of your insurance.
       title: Fairer pricing
     - icon: /images/uploads/hazard-icon.svg
       text: >-
-        A granular understanding into the risk profile of your fleet unlocks
-        actionable insights that combine to improve the overall safety of your
-        organisation, and the likelihood of claims.
+        Use unprecedented insights to understand your risk like never before, down to an individual flight level. Use these insights to identify and mitigate risks before they even occur.
       title: Risk Management
     - icon: /images/uploads/wireless-icon.svg
       text: >-
-        Rather than a static annual premium, Flock Enterprise seamlessly evolves
-        with your dynamic drone fleet. Add new equipment, or change liability
-        limits as and when you need, with no additional fees.
+        Your insurance requirements change as your operations evolve. With a dedicated account manager, you can seamlessly adapt your Flock Enterprise policy to the needs of your growing or changing fleet.
       title: Ultimate adaptability
   title: Safer and smarter with every drone flight
 testimonial:
@@ -61,10 +62,9 @@ banner:
   buttonColor: white
   buttonText: DOWNLOAD WHITE PAPER
   buttonTrack: ''
-  buttonUrl: >-
-    https://blog.flockcover.com/flocks-essential-guide-to-pfco-renewals-dac39542e16a
+  buttonUrl: /enterprise/whitepaper
   header: FREE WHITE PAPER
-  hidden: true
+  hidden: false
   image: /images/uploads/white-paper-banner.jpg
   mainText: The future of insurance for connected drone fleets
 trustedBy:
