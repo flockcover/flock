@@ -39,7 +39,7 @@ const AboutTemplate = ({
           twtDescription={siteMetadataOverride.twitter.description}
           twtImage={siteMetadataOverride.twitter.image}
         />
-        <LightNav />
+        <LightNav getAppButtonId="About page - Get-the-app button" />
         <AboutHero
           center={true}
           headerCSS={{

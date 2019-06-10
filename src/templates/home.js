@@ -48,7 +48,10 @@ const HomeTemplate = ({
           twtDescription={siteMetadataOverride.twitter.description}
           twtImage={siteMetadataOverride.twitter.image}
         />
-        <DarkNav to={downloadLink} />
+        <DarkNav
+          to={downloadLink}
+          getAppButtonId="Home page - Get-the-app button"
+        />
         <Box css={css({backgroundColor: 'white'})}>
           <Hero
             RightSideComponent={() => (
@@ -112,6 +115,7 @@ const HomeTemplate = ({
                 buttonUrl={banner.buttonUrl}
                 buttonTrack={banner.buttonTrack}
                 buttonColor={banner.buttonColor}
+                buttonId="Go to FAQ button"
               />
             )}
           </Box>

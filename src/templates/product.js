@@ -58,7 +58,11 @@ const SegmentPageTemplate = ({data}) => {
             twtDescription={siteMetadataOverride.twitter.description}
             twtImage={siteMetadataOverride.twitter.image}
           />
-          {navColor === 'light' ? <LightNav /> : <DarkNav />}
+          {navColor === 'light' ? (
+            <LightNav getAppButtonId={`${title} page - Get-the-app button`} />
+          ) : (
+            <DarkNav getAppButtonId={`${title} page - Get-the-app button`} />
+          )}
           <Box css={css({backgroundColor: 'white'})}>
             <Hero
               headerCSS={{

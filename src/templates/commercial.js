@@ -43,7 +43,11 @@ const CommercialTemplate = ({
           twtDescription={siteMetadataOverride.twitter.description}
           twtImage={siteMetadataOverride.twitter.image}
         />
-        {navColor === 'light' ? <LightNav /> : <DarkNav />}
+        {navColor === 'light' ? (
+          <LightNav getAppButtonId="Commercial page - Get-the-app button" />
+        ) : (
+          <DarkNav getAppButtonId="Commercial page - Get-the-app button" />
+        )}
         <Box css={css({backgroundColor: 'white'})}>
           <Hero
             headerCSS={{
@@ -99,6 +103,7 @@ const CommercialTemplate = ({
           {!banner.hidden && (
             <Box pt={[3, 6]}>
               <Banner
+                buttonId="Go to FAQ button"
                 image={banner.image}
                 mainText={banner.mainText}
                 buttonText={banner.buttonText}

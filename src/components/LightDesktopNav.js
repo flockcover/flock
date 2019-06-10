@@ -10,12 +10,15 @@ import whiteDownArrow from '../images/icons/small-down-arrow-white.svg'
 import whiteLogo from '../images/logo-white.svg'
 import Nav from './Nav'
 import {colors} from '../constants/theme'
-import { downloadClickHandler } from '../utils/trackDownload'
+import {downloadClickHandler} from '../utils/trackDownload'
 
-const LightDesktopNav = (to) => {
+const LightDesktopNav = ({getAppButtonId}) => {
   const download = () => {
     downloadClickHandler()
-    const linkAnonymousId = 'https://flockcover.app.link/6IW6kTmgfP' + '?anonymous_id=' + analytics.user().anonymousId()
+    const linkAnonymousId =
+      'https://flockcover.app.link/6IW6kTmgfP' +
+      '?anonymous_id=' +
+      analytics.user().anonymousId()
     window.open(linkAnonymousId, '_blank')
   }
   return (
@@ -31,13 +34,14 @@ const LightDesktopNav = (to) => {
       DownloadButton={({isSticky}) =>
         isSticky ? (
           <SecondaryButton
-             onClick={download}
+            id={getAppButtonId}
+            onClick={download}
             Text={SmallText}
           >
             Get the app
           </SecondaryButton>
         ) : (
-          <WhiteButton Text={SmallText} onClick={download}>
+          <WhiteButton id={getAppButtonId} Text={SmallText} onClick={download}>
             Get the app
           </WhiteButton>
         )

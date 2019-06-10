@@ -12,6 +12,7 @@ import whiteHamburger from '../images/icons/hamburger-white.svg'
 const LightMobileNav = props => {
   return (
     <MobileNav
+      getAppButtonId={props.getAppButtonId}
       iconColor={({isSticky}) => (isSticky ? colors.dark : colors.white)}
       icon={({isSticky}) => (isSticky ? blackHamburger : whiteHamburger)}
       logo={({isSticky}) => (isSticky ? blackLogo : whiteLogo)}

@@ -20,7 +20,6 @@ import FaqSection from '../components/FaqSection'
 import Hero from '../components/Hero'
 import {colors, breakpoints} from '../constants/theme'
 
-
 class FlyUnlimitedPageTemplate extends Component {
   render() {
     const {
@@ -42,7 +41,7 @@ class FlyUnlimitedPageTemplate extends Component {
               title={siteMetadataOverride.title}
               description={siteMetadataOverride.description}
               keywords={siteMetadataOverride.keywords}
-              webPageName='flyUnlimited'
+              webPageName="flyUnlimited"
               ogTitle={siteMetadataOverride.openGraph.title}
               ogDescription={siteMetadataOverride.openGraph.description}
               ogImage={siteMetadataOverride.openGraph.image}
@@ -50,7 +49,7 @@ class FlyUnlimitedPageTemplate extends Component {
               twtDescription={siteMetadataOverride.twitter.description}
               twtImage={siteMetadataOverride.twitter.image}
             />
-            <LightNav />
+            <LightNav getAppButtonId="Fly Unlimited page - Get-the-app button" />
             <Box css={css({backgroundColor: 'white', paddingBottom: 75})}>
               <Hero
                 headerCSS={{
@@ -126,6 +125,7 @@ class FlyUnlimitedPageTemplate extends Component {
 
             {!banner.hidden && (
               <Banner
+                buttonId="Find out about PfCO button"
                 image={banner.image}
                 mainText={banner.mainText}
                 buttonText={banner.buttonText}
@@ -137,6 +137,7 @@ class FlyUnlimitedPageTemplate extends Component {
             {!faqSection.hidden && (
               <Box css={css({backgroundColor: 'white'})}>
                 <FaqSection
+                  buttonId="View all button"
                   header={faqSection.header}
                   body={faqSection.body}
                   buttonText={faqSection.buttonText}
@@ -147,9 +148,7 @@ class FlyUnlimitedPageTemplate extends Component {
               </Box>
             )}
 
-            <Footer
-
-            />
+            <Footer />
           </div>
         </StickyContainer>
       </Layout>

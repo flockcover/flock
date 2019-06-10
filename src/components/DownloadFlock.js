@@ -32,6 +32,7 @@ const DownloadFlock = ({to}) => {
             justifyContent="center"
           >
             <PrimaryButton
+              id='Download Flock button'
               to={to}
               download
               title="DOWNLOAD"

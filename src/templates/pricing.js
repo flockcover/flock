@@ -45,7 +45,7 @@ const PricingTemplate = ({data}) => {
             twtDescription={siteMetadataOverride.twitter.description}
             twtImage={siteMetadataOverride.twitter.image}
           />
-          <LightNav />
+          <LightNav getAppButtonId="Pricing page - Get-the-app button" />
           <div
             css={css({
               position: 'relative'

@@ -10,6 +10,7 @@ import {breakpoints, fontFamilies} from '../constants/theme'
 import Text from './Text'
 
 const Banner = ({
+  buttonId,
   image,
   header,
   mainText,
@@ -23,7 +24,7 @@ const Banner = ({
     if (buttonTrack) analytics.track(buttonTrack)
     window.open(buttonUrl)
   }
-
+  
   return (
     <Flex
       justifyContent="center"
@@ -60,6 +61,7 @@ const Banner = ({
           </Text>
           {buttonText && buttonUrl && (
             <PrimaryButton
+              id={buttonId}
               to={buttonUrl}
               track={buttonTrack}
               title={buttonText}

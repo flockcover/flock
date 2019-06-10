@@ -28,6 +28,7 @@ class FUfaqSection extends React.Component {
     const {
       faqs,
       header,
+      buttonId,
       buttonText,
       buttonUrl,
       body,
@@ -141,6 +142,7 @@ class FUfaqSection extends React.Component {
               </Flex>
 
               <PrimaryButton
+                id={buttonId}
                 to={buttonUrl}
                 title={buttonText}
                 color="yellow"
