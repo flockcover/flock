@@ -30,18 +30,18 @@ const Head = ({frontmatter, favicon}) => (
     />
 
     {/* Twitter Card tags */}
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://flockcover.com/" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://flockcover.com/" />
     <meta
-      name="twitter:title"
+      property="twitter:title"
       content="Flock Cover | Simpler, smarter drone insurance"
     />
     <meta
-      name="twitter:description"
+      property="twitter:description"
       content="Fully flexible drone insurance for commercial, training, and recreational pilots. Get covered by the hour, day, or month - whatever suits you."
     />
     <meta
-      name="twitter:image"
+      property="twitter:image"
       content="https://flockcover.com/images/Social-Banner.png"
     />
 
