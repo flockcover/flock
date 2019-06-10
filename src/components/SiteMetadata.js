@@ -21,13 +21,14 @@ const SiteMetadata = ({
   title,
   description,
   keywords = [],
-  openGraph,
-  twitter
+  ogTitle,
+  ogDescription,
+  ogImage,
+  twtTitle,
+  twtDescription,
+  twtImage
 }) => {
   const formattedKeywords = isValid(keywords) ? R.join(',', keywords) : keywords
-
-  const {ogTitle, ogDescription, ogImage} = openGraph
-  const {twtTitle, twtDescription, twtImage} = twitter
 
   return (
     <Helmet>
