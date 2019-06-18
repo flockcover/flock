@@ -87,7 +87,7 @@ siteMetadataOverride:
       Tailor-made insurance for drone enterprises. Receive a customised policy
       that reflects the usage and risk of your fleet, along with actionable
       insights to help you fly safer.
-    image: ''
+    image: /images/uploads/enterprise-page-og-tag.png
     title: Flock Enterprise | Connected drone fleet insurance
   title: Fully flexible drone insurance for commercial pilots
   twitter:
@@ -95,7 +95,7 @@ siteMetadataOverride:
       Tailor-made insurance for drone enterprises. Receive a customised policy
       that reflects the usage and risk of your fleet, along with actionable
       insights to help you fly safer.
-    image: ''
+    image: /images/uploads/enterprise-page-og-tag.png
     title: Flock Enterprise | Connected drone fleet insurance
 ---
 
