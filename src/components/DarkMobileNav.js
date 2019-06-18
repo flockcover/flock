@@ -58,6 +58,7 @@ const navList = [
 ]
 
 const MobileNav = ({
+  getAppButtonId,
   isOpen,
   toggleMenu,
   logo = () => blackLogo,
@@ -150,7 +151,7 @@ const MobileNav = ({
                       borderBottom={`1px solid ${colors.white}`}
                       width="100%"
                     />
-                    <Link to={to.to} style={styles.product}>
+                    <Link to={to.to} style={styles.product} id={getAppButtonId}>
                       <ArrowText>
                         <SmallText fontWeight={700}>Download</SmallText>
                       </ArrowText>

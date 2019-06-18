@@ -75,6 +75,7 @@ const navList = [
 ]
 
 const MobileNav = ({
+  getAppButtonId,
   isOpen,
   toggleMenu,
   logo = () => blackLogo,
@@ -166,7 +167,7 @@ const MobileNav = ({
                       borderBottom={`1px solid ${colors.white}`}
                       width="100%"
                     />
-                    <Link to="https://flockcover.app.link/6IW6kTmgfP" style={styles.product}>
+                    <Link id={getAppButtonId} to="https://flockcover.app.link/6IW6kTmgfP" style={styles.product}>
                       <ArrowText>
                         <SmallText fontWeight={700}>Download</SmallText>
                       </ArrowText>

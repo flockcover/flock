@@ -64,6 +64,7 @@ const Hero = ({
                 {buttons.map((button, idx) => {
                   return (
                     <PrimaryButton
+                      id={`Hero button: ${button.title}`}
                       key={idx}
                       to={button.to}
                       color={button.color}

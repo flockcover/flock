@@ -45,7 +45,7 @@ const PayAsYouFlyTemplate = ({
             title={siteMetadataOverride.title}
             description={siteMetadataOverride.description}
             keywords={siteMetadataOverride.keywords}
-            webPageName='payAsYouFly'
+            webPageName="payAsYouFly"
             ogTitle={siteMetadataOverride.openGraph.title}
             ogDescription={siteMetadataOverride.openGraph.description}
             ogImage={siteMetadataOverride.openGraph.image}
@@ -53,7 +53,10 @@ const PayAsYouFlyTemplate = ({
             twtDescription={siteMetadataOverride.twitter.description}
             twtImage={siteMetadataOverride.twitter.image}
           />
-          <LightNav to={downloadLink} />
+          <LightNav
+            to={downloadLink}
+            getAppButtonId="PAYF page - Get-the-app button"
+          />
           <Box css={css({backgroundColor: 'white'})}>
             <Hero
               headerCSS={{
@@ -161,6 +164,7 @@ const PayAsYouFlyTemplate = ({
             </Box>
 
             <Banner
+              buttonId="Banner get-a-price button"
               image={banner.image}
               mainText={banner.mainText}
               buttonText={banner.buttonText}
@@ -170,6 +174,7 @@ const PayAsYouFlyTemplate = ({
           </div>
           <Box css={css({backgroundColor: 'white'})}>
             <FaqSection
+              buttonId="View all button"
               header={faqSection.header}
               body={faqSection.body}
               buttonText={faqSection.buttonText}
