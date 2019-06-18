@@ -12,9 +12,13 @@ hero:
       title: GET IN TOUCH
       to: /enterprise/contact
       track: ''
-  description: |-
-    * Tailor-made policies that reflect the actual usage and risk profile of your drone fleet
-    * Bespoke equipment cover for fleets of any size and drone type, with flexible liability limits (up to £25M)
+  description: >-
+    * Tailor-made policies that reflect the actual usage and risk profile of
+    your drone fleet
+
+    * Bespoke equipment cover for fleets of any size and drone type, with
+    flexible liability limits (up to £25M)
+
     * Actionable insights to help optimise, manage, and mitigate fleet risk
   features:
     - rightIcon: /images/uploads/allianz.png
@@ -32,15 +36,21 @@ why:
   list:
     - icon: /images/uploads/money-shield-icon.svg
       text: >-
-        The cost of your policy is personalised to the usage and risk exposure of your fleet. Safer flights are rewarded with lower prices. Increased transparency provides ultimate control over the price of your insurance.
+        The cost of your policy is personalised to the usage and risk exposure
+        of your fleet. Safer flights are rewarded with lower prices. Increased
+        transparency provides ultimate control over the price of your insurance.
       title: Fairer pricing
     - icon: /images/uploads/hazard-icon.svg
       text: >-
-        Use unprecedented insights to understand your risk like never before, down to an individual flight level. Use these insights to identify and mitigate risks before they even occur.
+        Use unprecedented insights to understand your risk like never before,
+        down to an individual flight level. Use these insights to identify and
+        mitigate risks before they even occur.
       title: Risk Management
     - icon: /images/uploads/wireless-icon.svg
       text: >-
-        Your insurance requirements change as your operations evolve. With a dedicated account manager, you can seamlessly adapt your Flock Enterprise policy to the needs of your growing or changing fleet.
+        Your insurance requirements change as your operations evolve. With a
+        dedicated account manager, you can seamlessly adapt your Flock
+        Enterprise policy to the needs of your growing or changing fleet.
       title: Ultimate adaptability
   title: Safer and smarter with every drone flight
 testimonial:
@@ -72,13 +82,20 @@ siteMetadataOverride:
     - on-demand
     - Flock
     - commercial drone insurance UK
-  title: Fully flexible drone insurance for commercial pilots
   openGraph:
-    title: Flock Enterprise | Connected drone fleet insurance
-    description: 'Tailor-made insurance for drone enterprises. Receive a customised policy that reflect the usage and risk of your fleet, along with actionable insights to help you fly safer.'
+    description: >-
+      Tailor-made insurance for drone enterprises. Receive a customised policy
+      that reflects the usage and risk of your fleet, along with actionable
+      insights to help you fly safer.
     image: ''
+    title: Flock Enterprise | Connected drone fleet insurance
+  title: Fully flexible drone insurance for commercial pilots
   twitter:
-    title: Flock Enterprise | Connected drone fleet insurance
-    description: 'Tailor-made insurance for drone enterprises. Receive a customised policy that reflect the usage and risk of your fleet, along with actionable insights to help you fly safer.'
+    description: >-
+      Tailor-made insurance for drone enterprises. Receive a customised policy
+      that reflects the usage and risk of your fleet, along with actionable
+      insights to help you fly safer.
     image: ''
+    title: Flock Enterprise | Connected drone fleet insurance
 ---
+
