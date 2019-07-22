@@ -159,8 +159,8 @@ faqSection:
 
 
         You can pause, or cancel, your cover at anytime, and this will take
-        effect on your next monthly renewal date. Don't worry, we'll never hit
-        you with any cancellation fees.
+        effect on your next monthly renewal date. Don't worry, we'll never make
+        you pay any cancellation fees.
       title: Are there any long-term commitments with Fly Unlimited?
     - body: >-
         Yes, you can adjust your policy at anytime during the month - with no
