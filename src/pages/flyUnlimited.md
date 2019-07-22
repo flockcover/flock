@@ -69,7 +69,8 @@ how:
       title: Rolling monthly contract
     - text: >-
         Add or remove pilots from your policy, and tailor your equipment cover
-        and liability limits in seconds.
+        and liability limits in a matter of taps with our [mobile
+        app](https://flockcover.app.link/D8pfY1k5wY).
       title: Easily adjust your cover
     - text: >-
         You’re free to pause or cancel at any point. Don’t worry, there are no
@@ -170,10 +171,14 @@ faqSection:
 
         * Adding (or removing) pilots
 
+        * Adding (or removing) a country 
+
         * Changing your Public Liability limit
 
 
-         Any changes that *increase* your coverage will take effect immediately, and we'll take payment for the price difference. Any changes that *lower* your coverage will take effect on your next monthly renewal date.
+        You can make changes to your policy in a matter of taps with the [Flock
+        Cover mobile app](https://flockcover.app.link/D8pfY1k5wY). A copy of
+        your new insurance documents will then be instantly emailed to you.
       title: Can I adjust my policy?
     - body: >-
         Yes, with Fly Unlimited you can easily extend your coverage worldwide as
@@ -187,8 +192,8 @@ faqSection:
 
         Applying for your PfCO? We can provide you with a CAA approved proof of
         compliant insurance certificate . To get yours instantly emailed to you,
-        download the Flock Cover app, and tap on ‘Your Details’ in the main
-        menu.
+        [download the Flock Cover app](https://flockcover.app.link/D8pfY1k5wY),
+        and tap on ‘Your Details’ in the main menu.
       title: Is Fly Unlimited CAA compliant?
     - body: >-
         You can make a claim easily in the Flock Cover app. If you'd prefer to
@@ -205,13 +210,14 @@ siteMetadataOverride:
     - on-demand
     - Flock
     - commercial drone insurance UK
-  title: Fly Unlimited
   openGraph:
-    title: ''
     description: ''
     image: ''
+    title: ''
+  title: Fly Unlimited
   twitter:
-    title: ''
     description: ''
     image: ''
+    title: ''
 ---
+
