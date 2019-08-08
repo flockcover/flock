@@ -85,13 +85,16 @@ meetTheTeam:
     - image: /images/uploads/img_0617-edit.jpg
       member: 'John Rowlands '
       role: Insurance Partnerships Lead
-    - image: /images/uploads/img_0464-edit.jpg
+    - image: /images/uploads/heidi.jpg
       member: 'Heidi Megele '
       role: Operations Manager
+    - image: /images/uploads/tuulia.jpg
+      member: Tuulia Lampi
+      role: Growth Lead
     - image: /images/uploads/chris.jpg
       member: 'Chris Fothergill '
       role: Software Engineer
-    - image: /images/uploads/screen-shot-2019-01-10-at-11.08.42.png
+    - image: /images/uploads/kieran.jpg
       member: 'Kieran Mulholland '
       role: Business Intelligence Analyst
     - image: /images/uploads/tommy-wilson-headshot.jpg
@@ -100,12 +103,24 @@ meetTheTeam:
     - image: /images/uploads/screen-shot-2019-06-03-at-22.15.06.png
       member: 'Barry Hamman '
       role: Product Manager
-    - image: /images/uploads/jimmy.png
+    - image: /images/uploads/jimmy.jpg
       member: 'Jimmy Breck-McKye '
       role: Software Engineer
-    - image: /images/uploads/ali.png
+    - image: /images/uploads/ali.jpg
       member: 'Ali Lines '
       role: Enterprise Insurance Broker
+    - image: /images/uploads/gabe.jpg
+      member: 'Gabriel Churchill '
+      role: Product Manager
+    - image: /images/uploads/reiss-rene.jpg
+      member: Reiss-Rene
+      role: Customer Success Executive
+    - image: /images/uploads/lorraine.jpg
+      member: Lorraine Damerau
+      role: MBA Intern
+    - image: /images/uploads/samir.jpg
+      member: Samir Gossain
+      role: Software Engineer
   title: Meet the team
 siteMetadataOverride:
   description: drone insurance
@@ -115,13 +130,14 @@ siteMetadataOverride:
     - on-demand
     - Flock
     - commercial drone insurance
-  title: "Flock –\_About"
   openGraph:
-    title: ''
     description: ''
     image: ''
+    title: ''
+  title: "Flock –\_About"
   twitter:
-    title: ''
     description: ''
     image: ''
+    title: ''
 ---
+
