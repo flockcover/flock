@@ -188,12 +188,6 @@ faqSection:
     - body: >-
         You can have peace of mind that our Fly Unlimited policies are CAA
         compliant and EC785/2004 compliant.
-
-
-        Applying for your PfCO? We can provide you with a CAA approved proof of
-        compliant insurance certificate . To get yours instantly emailed to you,
-        [download the Flock Cover app](https://flockcover.app.link/D8pfY1k5wY),
-        and tap on ‘Your Details’ in the main menu.
       title: Is Fly Unlimited CAA compliant?
     - body: >-
         You can make a claim easily in the Flock Cover app. If you'd prefer to
