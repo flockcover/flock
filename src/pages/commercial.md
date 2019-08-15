@@ -88,8 +88,8 @@ productTypes:
   title: Choose the cover that’s right for you
 coverNote:
   bodyText: >-
-    Good news! You no longer need to commit to an annual policy in order to get
-    your insurance certificate for your PfCO application or renewal.
+    Good news! You no longer need to commit to an annual policy in order to
+    declare you have valid insurance in place at the time of your application.
   hidden: false
   image: ../../images/uploads/cover-note.svg
   link:
@@ -125,13 +125,14 @@ siteMetadataOverride:
     - on-demand
     - Flock
     - commercial drone insurance UK
-  title: Fully flexible drone insurance for commercial pilots
   openGraph:
-    title: ''
     description: ''
     image: ''
+    title: ''
+  title: Fully flexible drone insurance for commercial pilots
   twitter:
-    title: ''
     description: ''
     image: ''
+    title: ''
 ---
+
