@@ -17,12 +17,11 @@ flockStory:
 
     We have our roots in academia, arising from research papers at Imperial
     College London and Cambridge University. We launched Europe’s first
-    'pay-as-you-fly' drone insurance product in 2018, and have skyrocketed since
-    then. Our digital underwriting platform has unlocked a range of data-driven
-    insurance and risk management products in the drone industry, from our
-    [on-demand insurance
-    app](https://blog.flockcover.com/how-to-insure-a-flying-robot-ca9744cc3e60/?utm_source=website&utm_medium=aboutus&utm_campaign=website)
-    for micro-SMEs, to our [exposure-based enterprise
+    '[pay-as-you-fly](https://blog.flockcover.com/how-to-insure-a-flying-robot-ca9744cc3e60/?utm_source=website&utm_medium=aboutus&utm_campaign=website)'
+    drone insurance product in 2018, and have skyrocketed since then. Our
+    digital underwriting platform has unlocked a range of data-driven insurance
+    and risk management products in the drone industry, from our on-demand
+    insurance app for micro-SMEs, to our [exposure-based enterprise
     product](https://landing.flockcover.com/enterprise-whitepaper/?utm_source=website&utm_medium=aboutus&utm_campaign=website)
     for the world’s largest drone fleets. We now help thousands of customers to
     fly
