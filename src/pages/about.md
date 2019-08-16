@@ -6,25 +6,33 @@ hero:
   header: About Flock
 flockStory:
   bigText: >-
-    We're Flock, an energetic, London-based startup working to make the world a
-    smarter and safer place.
+    We're Flock, a high-energy, London-based startup rebuilding insurance from
+    the ground up. 
 
 
     We believe that insurance doesn't have to be boring. It can be smart, and
-    powered by real-time data. It can fit in the palm of your hand. And it can
-    even help to reduce your own risks. Since launching Flock Cover in January
-    2018 we’ve helped thousands of commercial drone pilots fly safely, with
-    insurance that’s as individual as their flights. We’ve also launched
-    offerings for recreational pilots and trainee pilots. And by constantly
-    listening and learning from our customers, we’ve released a bunch of cool
-    features too - like [predictive risk
-    analytics](https://blog.flockcover.com/see-the-future-with-flocks-flight-planning-tool-1507e2de5c81),
-    and additional [equipment
-    insurance](https://blog.flockcover.com/just-landed-accessory-insurance-627b04c985bd).
+    powered by real-time data. It can be fully digital. It can even help to make
+    flying robots safer. 
 
 
-    Our technology and service is now transforming both the drone industry and
-    the insurance industry - and we’re just getting started!
+    We have our roots in academia, arising from research papers at Imperial
+    College London and Cambridge University. We launched Europe’s first
+    'pay-as-you-fly' drone insurance product in 2018, and have skyrocketed since
+    then. Our digital underwriting platform has unlocked a range of data-driven
+    insurance and risk management products in the drone industry, from our
+    [on-demand insurance
+    app](https://blog.flockcover.com/how-to-insure-a-flying-robot-ca9744cc3e60/?utm_source=website&utm_medium=aboutus&utm_campaign=website)
+    for micro-SMEs, to our [exposure-based enterprise
+    product](https://landing.flockcover.com/enterprise-whitepaper/?utm_source=website&utm_medium=aboutus&utm_campaign=website)
+    for the world’s largest drone fleets. We now help thousands of customers to
+    fly
+    [safer](https://blog.flockcover.com/flocks-data-insights-part-one-pilots-really-do-fly-safer-with-flock-40391adb7c26/?utm_source=website&utm_medium=aboutus&utm_campaign=website)
+    and smarter every single day. 
+
+
+    We’re now working with insurers to redefine the global insurance industry.
+    The sky is by no means the limit at Flock; we’re on a mission to make the
+    world a safer, smarter place, and we’re just getting started!
   header: 'Our Story '
   image: /images/uploads/backers.png
   imageHeader: 'We’re backed by some of the best in the business:'
