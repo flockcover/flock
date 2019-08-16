@@ -88,18 +88,19 @@ productTypes:
   title: Choose the cover that’s right for you
 coverNote:
   bodyText: >-
-    Good news! You no longer need to commit to an annual policy in order to
-    declare you have valid insurance in place at the time of your application.
+    On your renewal you need to declare that you have valid EC785/2004 compliant
+    insurance in place. With our CAA accepted Flock Cover Note, you can make
+    your declaration without having to purchase a commercial policy first. 
   hidden: false
   image: ../../images/uploads/cover-note.svg
   link:
-    text: Get your insurance certificate →
+    text: Get your Cover Note →
     to: 'https://landing.flockcover.com/cover-note/'
   smallText: >-
-    Instead, you can use our ‘Cover Note’ which is accepted by the CAA as proof
-    of EC785/2004 compliant insurance. Get yours instantly via the Flock Cover
-    mobile app for free.
-  title: Need a PfCO insurance certificate?
+    This means you can wait until you’ve received your PfCO from the CAA and
+    have a commercial job lined up before you take out one of our commercial
+    policies- a nice way to save a few pennies! 
+  title: Renewing your PfCO?
 testimonial:
   - author: 'Keith, Land Surveyor'
     image: /images/uploads/grey-testimonial-background.png
